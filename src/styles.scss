@@ -1,0 +1,39 @@
+.owl-theme .owl-nav [class*=owl-]{
+    color: red;
+}
+.owl-next{
+    padding: 8px !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px !important;
+    font-weight: 700;
+    border-radius: 7px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #0B877D;
+    background-color: #0B877D !important;
+    color: white;
+    position: absolute;
+    right: 35%;
+
+}
+
+.owl-prev{
+    padding: 8px !important;
+    background-color: white !important;
+    border-radius: 7px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #0B877D;
+    color: #0B877D !important;
+    font-size: 20px !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    position: absolute;
+    right: 42%;
+}
+
+.owl-dots{
+    position: absolute;
+    top: 5%;
+    left: 48%;
+}

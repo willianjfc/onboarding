@@ -11,6 +11,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { LogoComponent } from './components/logo/logo.component';
 import { TitleComponent } from './components/title/title.component';
 import { SubTitleComponent } from './components/sub-title/sub-title.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { SubTitleComponent } from './components/sub-title/sub-title.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

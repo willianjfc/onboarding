@@ -17,8 +17,7 @@ export class LayoutComponent implements OnInit {
     pullDrag: true,
     dots: true,
     navSpeed: 700,
-
-    navText: ['Mais tarde', 'Conhecer'],
+    navText: ['Mais Tarde', 'Conhecer'],
     responsive: {
       0: {
         items: 1
