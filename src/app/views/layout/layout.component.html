@@ -1,0 +1,19 @@
+<header>
+    <app-header></app-header>
+</header>
+<owl-carousel-o [options]="customOptions ">
+    <ng-template carouselSlide>
+        <div ngClass="container">
+            <app-logo></app-logo>
+            <app-title></app-title>
+            <app-sub-title></app-sub-title>
+        </div>
+    </ng-template>  
+    <ng-template carouselSlide>
+        <div ngClass="container">
+            <app-logo ImagePath='../../../assets/imgs/second-stage-img.svg'></app-logo>
+            <app-title title="Etapa 01"></app-title>
+            <app-sub-title subTitle="Descreva a etapa atual do processo em no máximo 3 linhas para que o usuário não se canse enquanto estiver aprendendo as etapas da novidade."></app-sub-title>
+        </div>
+    </ng-template>   
+  </owl-carousel-o>
